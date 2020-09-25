@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 600px;
+	background-color: #262626;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #262626;
+	align-items:center;
+}
+.pagei{
+	background-image: 'Photos/throughtrees.jpg';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hold {
+	width: 100%;
+	padding-bottom: 70px;
+	display: flex;
+	justify-content: center;
+}	
+a:link,
+a:visited {
+	color: #000000;
+	text-decoration: none;
+	
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	padding: 1.5%;
+	background: #00cc66;
+}
+
+.menu {
+	margin-top: 15px;
+}
+.menu > li {
+	display: inline;	
+	margin-right: 50px;
+}
+.menu > li:last-of-type {
+	margin-right: 0;
+	padding-left: 20px;
+}
+.annoy {
+	list-style: none;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+	font-size:18px;
+}
+.annoy:hover {
+	background-color: #339966;
+	
+}
+.click {
+	list-style: none;
+	padding: 0 40px 10px 20px;
+	margin:10px;
+	border-bottom: 1px solid #FFF;
+	font-size: 18px;
+}
+.annoy:last-of-type {
+	border-bottom: none;
+	text-color: #cccccc;
+}
+.dropdown:hover .feature {
+	display: flex;
+	flex-direction: column;
+	background: #262626;
+	border-radius: 5px;
+	padding-top: 60px;
+	position: absolute;
+	top: -25px;
+	left: -30px;
+	z-index: 1;
+
+}
+.dropdown {
+	position: relative;
+}
+.dropdown > span {
+	z-index:2;
+	position: relative;
+	cursor: pointer;
+	font-size: 18px;
+}
+.feature {
+	display:none;
+}
+.rcontainer{
+	display:flex;
+	justify-content:start;
+	padding-top: 1%;
+	width: 75%;
+}	
+.review {
+	width: 100px;
+	background-color: yellow;
+	font-size: 20px;
+	border: 5px solid blue;
+
+}
+.rcontent{
+	width:500px;
+	display:flex;
+	justify-content:start;
+	background-color: #00cc66;
+	border: 5px solid black;
+}
+.content {
+	padding-top:7.5%;
+	display:flex;
+	justify-content:center;
+	
+}
+
+.gray {
+	width:100%;
+	background-color:#4d4d4d;
+	display:flex;
+	justify-content:center;
+	border: 1px solid #00cc66;
+}
+.fine {
+	display: flex;
+	justify-content:center;
+}
+.port {
+	padding-top: 3%;
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.portf {
+	font-family: cursive;
+	color: #fff;
+	
+}
+.rev {
+	display:flex;
+	flex-direction: column;
+	padding-left: 5px;
+}
+.about {
+	padding-left: 5%;
+}
+.aport {
+	text-decoration: underline;
+}
+
+.favorites {
+	padding-top: 10%;
+	padding-bottom: 3%;
+	justify-content:center;
+	align-items:center;
+	font-size: 20px;
+	color:#fff;
+	font-family: cursive;
+
+}
+.favor {
+	padding-top: 10%;
+	padding-bottom:3%;
+	justify-content:center;
+	padding-left: 28%;
+	font-size: 20px;
+	color: #fff;
+	font-family: cursive;
+}
+	
+
+.container {
+	display: flex;
+	flex-direction: center;
+	padding-bottom: 5%;
+	
+}
+.grid {
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items:center;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+}
+.first {
+	order: 1;
+}
+.last {
+	order: -1;
+}
+.pics {
+	
+	width:200px;
+	
+}
+
+.logo {
+	font-size: 20px;
+	font-family: cursive;
+}
+.footer {
+	width:50%;
+	border-top: 1px solid #fff;
+	display:flex;
+	justify-content: center;
+	padding-top:1%;
+	padding-bottom: 3%;
+	align-items: center;
+}
+.fcen {
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items:center;
+}
+.flink {
+	font-size:20px;
+	text-decoration:underline;
+	font-family: 
+}
+.star {
+	width: 25px;
+	padding-left: 10px;
+	padding-top:5px;
+}
+.name {
+	border-bottom: 1px solid black;
+}
+.text-field {
+	padding-top: 3%;
+	display:flex;
+	flex-direction: column;
+}
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+	.content {
+		padding-top:15%;
+	
+	}
+}
