@@ -5,17 +5,16 @@
 }
 body {
 	height: 600px;
-	background-color: #262626;
-	background-image: url();
+	background-image: url('2bif_whl9_180111.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size:cover;
+	
 }
 .page {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #262626;
 	align-items:center;
 }
 .pagei{
@@ -124,8 +123,9 @@ a:hover {
 	width:500px;
 	display:flex;
 	justify-content:start;
-	background-color: #00cc66;
-	border: 5px solid black;
+
+	border: 2px solid #ccfff5;
+	background-color: #e6fffa;
 }
 .content {
 	padding-top:7.5%;
@@ -224,13 +224,11 @@ a:hover {
 	font-family: cursive;
 }
 .footer {
-	width:50%;
-	border-top: 1px solid #fff;
 	display:flex;
-	justify-content: center;
-	padding-top:1%;
-	padding-bottom: 3%;
-	align-items: center;
+	padding-top: 13%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	flex-direction: column;
 }
 .fcen {
 	display:flex;
@@ -256,9 +254,21 @@ a:hover {
 	display:flex;
 	flex-direction: column;
 }
-@media only screen and (min-width: 200px) and (max-width: 960px) {
-	.content {
-		padding-top:15%;
-	
-	}
+.form {
+	padding-right: 5%;
+	padding-top: 5%;
+}
+.text{
+	width: 40%;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+.music {
+	display: flex;
+	justify-content: space-between;
+}
+.color {
+	padding: 2px 2px 2px 2px;
+	border: 3px solid #ccfff5;
+	background-color: #e6fffa;
 }
