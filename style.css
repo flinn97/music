@@ -231,11 +231,13 @@ a:hover {
 	flex-direction: column;
 }
 .footerl {
-display:flex;
-        padding-top: 17%;
-	padding-bottom: 2%;
+	display:flex;
+	padding-bottom: 2px;
 	padding-left: 2%;
 	flex-direction: column;
+	margin-bottom= -50px;
+	margin-top: 150px;
+	justify-content: center;
 }
 .fcen {
 
